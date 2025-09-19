@@ -1,4 +1,4 @@
-name: TDM
+name: CARD
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
