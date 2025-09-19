@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and checkpoints
+log/
+checkpoints/
+*.log
+
+# Data - assuming you don't want to upload large datasets
+# If you want to track specific data files, remove them from here
+data/beauty/
+data/ks/
+data/yc/
+data/zhihu/
+
+# Environment
+.env
+.venv
+venv/
+env/
