@@ -19,4 +19,4 @@ python -u CARD.py --data ks    --strategy pred_future --stability_threshold 1.88
 
 ### Acknowledgment
 
-This code is implemented based on DreamRec(https://github.com/YangZhengyi98/DreamRec) and TDM(https://github.com/maowenyu-11/TDM/tree/main). We thank the authors for providing efficient implementations.
+This code is implemented based on [DreamRec](https://github.com/YangZhengyi98/DreamRec) and [TDM(https://github.com/maowenyu-11/TDM/tree/main)]. We thank the authors for providing efficient implementations.
