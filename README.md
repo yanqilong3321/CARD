@@ -16,3 +16,7 @@ python -u CARD.py --data zhihu --strategy pred_future --stability_threshold 1.88
 ```
 python -u CARD.py --data ks    --strategy pred_future --stability_threshold 1.8893 --future_window_size 3 --continuity_threshold 0.1 --score_temp 1.0 --epoch 30 --timesteps 2000 --lr 0.00005 --beta_sche linear --w 2 --cuda 1 --eval 5 --optimizer adamw --diffuser_type mlp1 --random_seed 100 --linespace 100 >> log/CARD_ks.log 2>&1 &
 ```
+
+### Acknowledgment
+
+This code is implemented based on DreamRec(https://github.com/YangZhengyi98/DreamRec) and TDM(https://github.com/maowenyu-11/TDM/tree/main). We thank the authors for providing efficient implementations.
