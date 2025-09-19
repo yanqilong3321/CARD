@@ -1,10 +1,13 @@
+## CARD
+This is the pytorch implement for paper **Enhancing Guidance for Missing Data in Diffusion-Based Sequential Recommendation.**
 ## Reproduce the results
 
-Our experiment settings are specified in the `CARD.yml` file. To create the environment, you can use the following command:
+Our experiment I settings are specified in the `CARD.yml` file . To create the environment, you can use the following command:
 
 ```
 conda env create -f card.yml
 ```
+our experiments were conducted on a single NVIDIA RTX 4090 GPU.
 
 ### Zhihu
 ```
